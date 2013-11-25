@@ -10,6 +10,24 @@ public class Lesson {
 	
 	private LessonType lessonType;
 
+	public Lesson() {
+		this(null, null, null, null);
+	}
+	
+	public Lesson(final String subjectName, final LessonType lessonType) {
+		this(subjectName, lessonType, null, null);
+	}
+	
+	public Lesson(final String subjectName,
+			      final LessonType lessonType,
+			      final String classroom, 
+			      final String lectorName) {
+		this.subjectName = subjectName;
+		this.lessonType = lessonType;
+		this.classroom = classroom;
+		this.lectorName = lectorName;
+	}
+	
 	public String getClassroom() {
 		return classroom;
 	}
