@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="AutoCompleteTextViewEltechScheduleColours" parent="android:Widget.Holo.Light.AutoCompleteTextView">
+      <item name="android:dropDownSelector">@drawable/eltechschedulecolours_list_selector_holo_light</item>
+	    <item name="android:background">@drawable/eltechschedulecolours_edit_text_holo_light</item>
+  </style>
+
+  <style name="ButtonEltechScheduleColours" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/eltechschedulecolours_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonEltechScheduleColours" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/eltechschedulecolours_btn_default_holo_light</item>
+  </style>
+
+  <style name="SpinnerEltechScheduleColours" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/eltechschedulecolours_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/eltechschedulecolours_list_selector_holo_light</item>
+  </style>
+
+  <style name="TabWidgetEltechScheduleColours" parent="@android:style/Widget.TabWidget">
+      <item name="android:tabStripLeft">@null</item>
+      <item name="android:tabStripRight">@null</item>
+      <item name="android:tabStripEnabled">false</item>
+      <item name="android:divider">?android:attr/dividerVertical</item>
+      <item name="android:showDividers">middle</item>
+      <item name="android:dividerPadding">8dip</item>
+      <item name="android:measureWithLargestChild">true</item>
+      <item name="tabLayout">@layout/eltechschedulecolours_tab_indicator_holo</item>
+  </style>
+
+  <style name="ProgressBarEltechScheduleColours" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/eltechschedulecolours_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/eltechschedulecolours_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="SeekBarEltechScheduleColours" parent="android:Widget.Holo.Light.SeekBar">
+      <item name="android:progressDrawable">@drawable/eltechschedulecolours_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/eltechschedulecolours_scrubber_progress_horizontal_holo_light</item>
+      <item name="android:thumb">@drawable/eltechschedulecolours_scrubber_control_selector_holo_light</item>
+  </style>
+
+  <style name="RatingBarEltechScheduleColours" parent="android:Widget.Holo.Light.RatingBar">
+      <item name="android:progressDrawable">@drawable/eltechschedulecolours_ratingbar_full_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/eltechschedulecolours_ratingbar_full_holo_light</item>
+  </style>
+
+  <style name="ToggleEltechScheduleColours" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/eltechschedulecolours_btn_toggle_holo_light</item>
+  </style>
+
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Theme.EltechSchedule" parent="Theme.EltechscheduleSherlockBase">
+
+    <item name="android:editTextStyle">@style/EditTextEltechScheduleColours</item>
+
+    <item name="android:autoCompleteTextViewStyle">@style/AutoCompleteTextViewEltechScheduleColours</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxEltechScheduleColours</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonEltechScheduleColours</item>
+
+    <item name="android:buttonStyle">@style/ButtonEltechScheduleColours</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonEltechScheduleColours</item>
+
+    <item name="android:spinnerStyle">@style/SpinnerEltechScheduleColours</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItemEltechScheduleColours</item>
+
+    <item name="android:tabWidgetStyle">@style/TabWidgetEltechScheduleColours</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarEltechScheduleColours</item>
+
+    <item name="android:seekBarStyle">@style/SeekBarEltechScheduleColours</item>
+
+    <item name="android:ratingBarStyle">@style/RatingBarEltechScheduleColours</item>
+
+    <item name="android:buttonStyleToggle">@style/ToggleEltechScheduleColours</item>
+
+    <item name="android:listViewStyle">@style/ListViewEltechScheduleColours</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewEltechScheduleColours.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItemEltechScheduleColours</item>
+
+  </style>
+
+</resources>
