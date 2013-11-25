@@ -1,7 +1,8 @@
 package com.danilov.eltechschedule;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.media.MediaPlayer;
+import android.os.Bundle;
 import android.view.Menu;
 
 public class ScheduleActivity extends Activity {
@@ -10,6 +11,8 @@ public class ScheduleActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_schedule);
+	    final MediaPlayer myMediaPlayer = MediaPlayer.create(this, R.raw.transition);
+	    myMediaPlayer.start();
 	}
 
 	@Override
